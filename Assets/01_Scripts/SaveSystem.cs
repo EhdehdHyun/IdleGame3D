@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.IO;
-using Newtonsoft.Json;
 using System;
 
 public class SaveSystem : MonoBehaviour
@@ -29,7 +28,7 @@ public class SaveSystem : MonoBehaviour
     {
         data.lastSaveTime = (float)DateTimeOffset.UtcNow.ToUnixTimeSeconds(); //현재 시간을 유닉스 타임스탬프로 저장
 
-        string json = JsonConvert.SerializeObject(data, Formatting.Indented);
+        string json = JsonUtility.ToJson(data, true);
         File.WriteAllText(savePath, json);
     }
 
@@ -39,6 +38,6 @@ public class SaveSystem : MonoBehaviour
             return null;
 
         string json = File.ReadAllText(savePath);
-        return JsonConvert.DeserializeObject<PlayerData>(json);
+        return JsonUtility.FromJson<PlayerData>(json);
     }
 }

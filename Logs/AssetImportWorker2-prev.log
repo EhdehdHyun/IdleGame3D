@@ -1,0 +1,1323 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 31861 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ekpul/Unity/IdleGame3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+65036
+Successfully changed project path to: C:/Users/ekpul/Unity/IdleGame3D
+C:/Users/ekpul/Unity/IdleGame3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46656]  Target information:
+
+Player connection [46656]  * "[IP] 192.168.219.100 [Port] 0 [Flags] 2 [Guid] 740583791 [EditorId] 740583791 [Version] 1048832 [Id] WindowsEditor(7,동현) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [46656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [46656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 93.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ekpul/Unity/IdleGame3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.7628
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004836 seconds.
+- Loaded All Assemblies, in  0.535 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 327 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (491ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (379ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 951ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (54.6 KB). Loaded Objects now: 4230.
+Memory consumption went from 138.2 MB to 138.1 MB.
+Total: 2.763300 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.183400 ms  DeleteObjects: 0.078100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1154763.931384 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street1.prefab
+  artifactKey: Guid(5788ba66545e1654cb35eff801e3ca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street1.prefab using Guid(5788ba66545e1654cb35eff801e3ca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dda5434a43c6bd8c2cefafc66129da56') in 0.081404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street.prefab
+  artifactKey: Guid(a05748e31f9c70c47856e64accbd0afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street.prefab using Guid(a05748e31f9c70c47856e64accbd0afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2d787b88fcd3e981f9b37f41b41db05') in 0.022642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/Light 4.prefab
+  artifactKey: Guid(8b043461d5cc6534887c6d13a5d413b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/Light 4.prefab using Guid(8b043461d5cc6534887c6d13a5d413b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '810a2bd9b81545ced465e4ceb66c3533') in 0.021342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street11.prefab
+  artifactKey: Guid(3ede33d214930334eb0d8d54f0ebf364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street11.prefab using Guid(3ede33d214930334eb0d8d54f0ebf364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0e2ff359f2ad7136faad3a9feec067b') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Cars/a.prefab
+  artifactKey: Guid(1ab1d36f75c9cd148b678b721da7022c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Cars/a.prefab using Guid(1ab1d36f75c9cd148b678b721da7022c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cf9904104d4243f132d06a3c1f8fe88') in 0.019303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Modernbuilding 3.prefab
+  artifactKey: Guid(12aa0b047e7173e49aca5a9abc05a8ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Modernbuilding 3.prefab using Guid(12aa0b047e7173e49aca5a9abc05a8ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb257faf470b7a2a664cc01490cde984') in 0.015052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Buildings/House 3 c.prefab
+  artifactKey: Guid(e9fbd83c4014eaa4f9f3fbeced3d5b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Buildings/House 3 c.prefab using Guid(e9fbd83c4014eaa4f9f3fbeced3d5b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef7e2c56dfb41e60bdf8becfc648b53e') in 0.014926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/Streetside 1.prefab
+  artifactKey: Guid(a7f51d509e2afc3429f4187b28ac5eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/Streetside 1.prefab using Guid(a7f51d509e2afc3429f4187b28ac5eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '550c535bb29b406cc1d0d538503780c9') in 0.016170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/Dangersing2.prefab
+  artifactKey: Guid(359025bd7802fe140bff1f7f17c62661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/Dangersing2.prefab using Guid(359025bd7802fe140bff1f7f17c62661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68a2c5e089f9baa9c4deedad48689005') in 0.015266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/3d models/Items/Food/Bottle.fbx
+  artifactKey: Guid(57ada9b5e6126f1438acee54bc8c1bbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/3d models/Items/Food/Bottle.fbx using Guid(57ada9b5e6126f1438acee54bc8c1bbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07d6e6d75fd2d589efa9a140158fc0ce') in 0.037248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Nature/Tree 2G.prefab
+  artifactKey: Guid(22902ba8a3d55a2408f0230916544f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Nature/Tree 2G.prefab using Guid(22902ba8a3d55a2408f0230916544f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2f0327663c7e3507e5a00923d73b494') in 0.018600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/fence 3.prefab
+  artifactKey: Guid(c9fc5814d0be24a4c921f07944d50fb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/fence 3.prefab using Guid(c9fc5814d0be24a4c921f07944d50fb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9529343b8e55add59824d0ac5ec7344') in 0.015219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 6 a.fbx
+  artifactKey: Guid(5d264e736354f1c479834a66a44038c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 6 a.fbx using Guid(5d264e736354f1c479834a66a44038c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96d2eb21f43bd1c23aa5b7f6829cc4ea') in 0.014636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 2 a.fbx
+  artifactKey: Guid(9afef99ad82c0974698733091c5593ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 2 a.fbx using Guid(9afef99ad82c0974698733091c5593ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '411286e5bc0ac0b3db0ac4fd147077d9') in 0.015522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street8.prefab
+  artifactKey: Guid(6b7e387fe2b6039428af6779b7fa75c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street8.prefab using Guid(6b7e387fe2b6039428af6779b7fa75c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8629603372c2231f983f6cc77e6ff9e') in 0.018170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/BigBuilding 1 b.fbx
+  artifactKey: Guid(036e00e2a6b388a49bf20a7baddb6672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/BigBuilding 1 b.fbx using Guid(036e00e2a6b388a49bf20a7baddb6672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0280b1ccb24ebb3dd680b256155ea37a') in 0.018101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 4 b.fbx
+  artifactKey: Guid(4f08370e53620864185aac5fe14eff91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 4 b.fbx using Guid(4f08370e53620864185aac5fe14eff91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d43d526aeec7089fc7a1749b0130e73') in 0.016867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 4 c.fbx
+  artifactKey: Guid(7e1c47b59f9dfd94ea2120b29638b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 4 c.fbx using Guid(7e1c47b59f9dfd94ea2120b29638b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '423d959a2d2daa177cf5388f724cf553') in 0.015768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 1 c.fbx
+  artifactKey: Guid(3217fcaed9d3ee94aa04bde7a683d481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 1 c.fbx using Guid(3217fcaed9d3ee94aa04bde7a683d481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1117bc9eacca89c97fd31a5247a71cb8') in 0.015337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 5 a.fbx
+  artifactKey: Guid(ef2a1a2d465d72140a52c4a2523fc92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 5 a.fbx using Guid(ef2a1a2d465d72140a52c4a2523fc92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d188d7c37a8adbdf99ccdae87baa6ec') in 0.017255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street6.prefab
+  artifactKey: Guid(e18dc2821746f804e85147f061dfe862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street6.prefab using Guid(e18dc2821746f804e85147f061dfe862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5b2625266e5799b47ce1917c6369483') in 0.023493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Modernbuilding 3.fbx
+  artifactKey: Guid(c632b326056c46847b5e1d7ba3ebc1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Modernbuilding 3.fbx using Guid(c632b326056c46847b5e1d7ba3ebc1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b655252b22adafcfb63f683a2eb10d1d') in 0.019564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/BigBuilding 1 c.fbx
+  artifactKey: Guid(33498963313db7f4db48c3b2b04bd2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/BigBuilding 1 c.fbx using Guid(33498963313db7f4db48c3b2b04bd2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c84c5be53517d4342554fd2ac175cbd2') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street5.prefab
+  artifactKey: Guid(f97020ff5083dec479f58ead60c987ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street5.prefab using Guid(f97020ff5083dec479f58ead60c987ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08df08d093bc21af1b3d4f1dd5764217') in 0.016740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 1 c.fbx
+  artifactKey: Guid(ba910f45b1e15864ebd6c33e170b8373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 1 c.fbx using Guid(ba910f45b1e15864ebd6c33e170b8373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17c91b603b6a3cea183528cd68ea97cd') in 0.013523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Building 1 a.fbx
+  artifactKey: Guid(8b4e3fed29112d9428675c318f4a166c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Building 1 a.fbx using Guid(8b4e3fed29112d9428675c318f4a166c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7127ea403601e84c6ec1aba08ba466bc') in 0.018468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street17.prefab
+  artifactKey: Guid(8e9cdce9d37d04142ba2881b0d0758f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street17.prefab using Guid(8e9cdce9d37d04142ba2881b0d0758f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bf00e71ba6f9243256ed864a6351fb8') in 0.021271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 3 b.fbx
+  artifactKey: Guid(d4538d3bcf5a1534499f86ea5a5e8779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/HouseBig 3 b.fbx using Guid(d4538d3bcf5a1534499f86ea5a5e8779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '718f67c8449f24423cbb557e488c8c20') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street2.prefab
+  artifactKey: Guid(f23fa26c0f02113429d2479d12bded0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street2.prefab using Guid(f23fa26c0f02113429d2479d12bded0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d65743cfc3d0bd066ed91366b3d1d31') in 0.022306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 1 d.fbx
+  artifactKey: Guid(7bcdefbdbaa7b944eafaa34e29db2d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/House 1 d.fbx using Guid(7bcdefbdbaa7b944eafaa34e29db2d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b1ae279ff9c71042eeadbe40b580119') in 0.023998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Garage 1 .fbx
+  artifactKey: Guid(d387e9a3466c86a4c8699b007c888d4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Garage 1 .fbx using Guid(d387e9a3466c86a4c8699b007c888d4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddbd0ca5d0ff913b2f67a8d5c1811437') in 0.017013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Store 1 a.fbx
+  artifactKey: Guid(a8c4d7ffd8f00614abb842d4962b2833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Store 1 a.fbx using Guid(a8c4d7ffd8f00614abb842d4962b2833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06ae2f4337ebe9846e51c7981d0ae8fc') in 0.014723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_002.fbx
+  artifactKey: Guid(b94ffde4996b2f949a049a31d473ba9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_002.fbx using Guid(b94ffde4996b2f949a049a31d473ba9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba8d869d1f8ca6788efa60192c0b5c00') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street3.prefab
+  artifactKey: Guid(db0b9d848d8392b43b69a689954c42e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street3.prefab using Guid(db0b9d848d8392b43b69a689954c42e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64d2a30149b9f600aa43765c8935eea2') in 0.023393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Garage 3 .fbx
+  artifactKey: Guid(361480539b382af4aada9e58fc5168a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Garage 3 .fbx using Guid(361480539b382af4aada9e58fc5168a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12f4c5bf1bafd06f09a7719d53ca868a') in 0.034546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/3d models/Streets/A bridge/Calles10.mtl
+  artifactKey: Guid(a15a2d4ebadeef8449da140ee2d4f3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/3d models/Streets/A bridge/Calles10.mtl using Guid(a15a2d4ebadeef8449da140ee2d4f3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9e242877575092419a3f64172abd05f') in 0.008174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street16.prefab
+  artifactKey: Guid(a7adf9e526f57d640a513f201b8ddf56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street16.prefab using Guid(a7adf9e526f57d640a513f201b8ddf56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b01435c22b2b9baa13e2931a3f1c2232') in 0.014280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Store 1 a.prefab
+  artifactKey: Guid(a6a3ed238fba95a4b8654d205930e8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Store 1 a.prefab using Guid(a6a3ed238fba95a4b8654d205930e8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '502fa56a3871ab6882501328e5f95e48') in 0.010127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/09_Externals/3d models/Streets/A bridge/Calles17.mtl
+  artifactKey: Guid(ba6863cc5b625cd47b115a728272e1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/3d models/Streets/A bridge/Calles17.mtl using Guid(ba6863cc5b625cd47b115a728272e1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a10d5a84348bf45481e441ef410635c') in 0.008099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/Streetsing.prefab
+  artifactKey: Guid(e503c90d2cb9f104f9dedc88eb01d52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/Streetsing.prefab using Guid(e503c90d2cb9f104f9dedc88eb01d52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79d45dcdccd57c4eb6bf0fd0b3c94167') in 0.017579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/01_Scripts/Managers/GameManager.cs
+  artifactKey: Guid(700fa4ffcc0dbfc4c8be7a25e0d23dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/01_Scripts/Managers/GameManager.cs using Guid(700fa4ffcc0dbfc4c8be7a25e0d23dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c94eac2196ce2943d69430abdcce744') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_014.fbx
+  artifactKey: Guid(5826d17cc70efec429f19e821cfe9493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_014.fbx using Guid(5826d17cc70efec429f19e821cfe9493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c95b1588e663af32ec011596926788d') in 0.015806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Floortrapdoor.fbx
+  artifactKey: Guid(87176972f76cefd49a8f3c43628959f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Floortrapdoor.fbx using Guid(87176972f76cefd49a8f3c43628959f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9464f9f039c3be534cdcb77c045ab24') in 0.018272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Fence 2.fbx
+  artifactKey: Guid(e84761066ac2efe47861c13cc5ac080f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Fence 2.fbx using Guid(e84761066ac2efe47861c13cc5ac080f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8ef80e9aa0a7ce53e916cfaf32f6abf') in 0.015292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Ninjaturttlesdoor.fbx
+  artifactKey: Guid(57389d843f162f049becf3b5d4b79e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Ninjaturttlesdoor.fbx using Guid(57389d843f162f049becf3b5d4b79e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58188bd6af63fd6ea7558014bde41f93') in 0.019662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Foodcar.fbx
+  artifactKey: Guid(63943195cca4f8244b015fc8cfff532c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Foodcar.fbx using Guid(63943195cca4f8244b015fc8cfff532c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd6b5658e5f9eac0b2cbd1f78ade2bba') in 0.015987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_028.fbx
+  artifactKey: Guid(4e7899ebeb867f64d8aaef720eea426e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_028.fbx using Guid(4e7899ebeb867f64d8aaef720eea426e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '600f580f2d9c5eb209ede29f110035e4') in 0.017746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_021.fbx
+  artifactKey: Guid(c44435acf25a871479340c97c5ea2de1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_021.fbx using Guid(c44435acf25a871479340c97c5ea2de1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '093f9554ff08a42ba9e744cbb9aa988e') in 0.019496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Light 4.fbx
+  artifactKey: Guid(f119655b1dca4854d82c9fcd07b20d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Light 4.fbx using Guid(f119655b1dca4854d82c9fcd07b20d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c68630fe16fb06d1283121f0a41901e') in 0.018677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 2V.fbx
+  artifactKey: Guid(c25b7c6bf6a34784abc5844ca9fcc87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 2V.fbx using Guid(c25b7c6bf6a34784abc5844ca9fcc87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51432fa5292401ac5dd928059fbeed1e') in 0.021683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 3G.fbx
+  artifactKey: Guid(e7b225d9f662a5b4fb278e1e458363ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 3G.fbx using Guid(e7b225d9f662a5b4fb278e1e458363ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93861a90066dd567d4ccf79c86364e2e') in 0.021300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Mailbox.fbx
+  artifactKey: Guid(b957a0592f83bff4c8cddcb7da260eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Mailbox.fbx using Guid(b957a0592f83bff4c8cddcb7da260eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86cb7160bd202f504b422101930d8f95') in 0.015673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_022.fbx
+  artifactKey: Guid(85d9b3dc089f7134a8124303a3773274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_022.fbx using Guid(85d9b3dc089f7134a8124303a3773274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c384de3fa411d63f81a0873639a31a2') in 0.016355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_026.fbx
+  artifactKey: Guid(3524b9e75f22c714d887216a9d2387f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_026.fbx using Guid(3524b9e75f22c714d887216a9d2387f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0155b2958c3ba62df59b407ca724226') in 0.014928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Mailbox2.fbx
+  artifactKey: Guid(b7e2ab9630578a14e9271c7ed42a1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Mailbox2.fbx using Guid(b7e2ab9630578a14e9271c7ed42a1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17a19d0d2e1f924203e4ffabb6cb6a45') in 0.016542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bushesbox 2V.fbx
+  artifactKey: Guid(d62fdeac70473ab4d8a8c31cbe4843a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bushesbox 2V.fbx using Guid(d62fdeac70473ab4d8a8c31cbe4843a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '253a361f25ebeca176a60515c179d72c') in 0.015218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bush 1G.fbx
+  artifactKey: Guid(fc897d598e5eb1045a779f530c7fa038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bush 1G.fbx using Guid(fc897d598e5eb1045a779f530c7fa038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cee02d9152230a7ae7cb134386de95f6') in 0.021240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Zombie soldier.fbx
+  artifactKey: Guid(233cd38e1e81e6b4eb7133d6338363f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Zombie soldier.fbx using Guid(233cd38e1e81e6b4eb7133d6338363f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e160914be236bd10a740c676dd66089') in 0.022545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Zombie regular.fbx
+  artifactKey: Guid(ae55a774dcac2ce4093c30961fa4a45f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Zombie regular.fbx using Guid(ae55a774dcac2ce4093c30961fa4a45f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51174f51a0ea32351a307de430eadc3a') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_030.fbx
+  artifactKey: Guid(a702ef2b7454c2a4cb25dfbc698a8f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_030.fbx using Guid(a702ef2b7454c2a4cb25dfbc698a8f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcb42292d2b63b5641e77f1a884481aa') in 0.013437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_024.fbx
+  artifactKey: Guid(2f20b674dd9eb5e47b26c2efec6035c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/cars/car_Group_024.fbx using Guid(2f20b674dd9eb5e47b26c2efec6035c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5db113937ef1aecaafcc6ec4fe8fe0fa') in 0.018076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 4G.fbx
+  artifactKey: Guid(96749ba474c92b04d912eccb74cadfd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Tree 4G.fbx using Guid(96749ba474c92b04d912eccb74cadfd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da0d564d367eda108f69aa84fee50f5f') in 0.017615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Foodcar2.fbx
+  artifactKey: Guid(d9f05e2baf39e2548a7ab6eb56abe400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Foodcar2.fbx using Guid(d9f05e2baf39e2548a7ab6eb56abe400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '389f38e87ab52322869b42302760a7b2') in 0.016272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Fence 1.fbx
+  artifactKey: Guid(9048979b2e1c9eb428ee4115b24c2fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Fence 1.fbx using Guid(9048979b2e1c9eb428ee4115b24c2fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0a4e1a1bae9a4a9077a7ac22f5dece2') in 0.014677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Lightnb.fbx
+  artifactKey: Guid(773bfb8e38fd9644caea2fb2918944fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Lightnb.fbx using Guid(773bfb8e38fd9644caea2fb2918944fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f4479901ba200823c7c9ac8f49a06b3') in 0.034868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Airconditioner.fbx
+  artifactKey: Guid(e8af4d671de15f44591debe1581063ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Airconditioner.fbx using Guid(e8af4d671de15f44591debe1581063ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '695fdbce077d5cb27ffe4a1a74518867') in 0.018005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bush 5V.fbx
+  artifactKey: Guid(7aec5a21042656a42a6ead1c82c0f427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Nature/Bush 5V.fbx using Guid(7aec5a21042656a42a6ead1c82c0f427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5364b61601e89b2ae68605264700d449') in 0.017245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Bustop2.fbx
+  artifactKey: Guid(b285825cf6dbc4144a94f5ea3562495b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Bustop2.fbx using Guid(b285825cf6dbc4144a94f5ea3562495b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec312886e7a7c141943945313f8858e9') in 0.016643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/3d models/cars/car_Group_010.fbx
+  artifactKey: Guid(356652a79f66a6745afbc284d73f5583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/3d models/cars/car_Group_010.fbx using Guid(356652a79f66a6745afbc284d73f5583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a442e80294a6147c4ce1fcc3dc6f099b') in 0.022087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/3d models/cars/car_Group_001.fbx
+  artifactKey: Guid(55cffcfe066b1d84b83e740df1775895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/3d models/cars/car_Group_001.fbx using Guid(55cffcfe066b1d84b83e740df1775895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c89bd9c3ef744e16d3fab643dda6566d') in 0.024331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Small pistol 2.prefab
+  artifactKey: Guid(52cd8afa329779a43bf609a31ee908f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Small pistol 2.prefab using Guid(52cd8afa329779a43bf609a31ee908f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aa420a295de128ade4c2ab46d894564c') in 0.024883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Flashlight.fbx
+  artifactKey: Guid(9bfbddc07cc46a6429f080a077cc3cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Flashlight.fbx using Guid(9bfbddc07cc46a6429f080a077cc3cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64a8b29d91a4eb72cfd8a3b190f3bcad') in 0.019613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Burger.fbx
+  artifactKey: Guid(3274675c74a55c348abcd0b8d123f96e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Burger.fbx using Guid(3274675c74a55c348abcd0b8d123f96e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a84ad8183a649216f83be6a94db99ef') in 0.025923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Ak 47.prefab
+  artifactKey: Guid(712cf166310f56e4c95c60ef8c79f675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Ak 47.prefab using Guid(712cf166310f56e4c95c60ef8c79f675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2c76cd828f9c04dc19c11fd6f431319') in 0.019470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Small pistol.prefab
+  artifactKey: Guid(81c3a96695312cf49a4219745cb65c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Small pistol.prefab using Guid(81c3a96695312cf49a4219745cb65c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52d25bc23ac04ea3064fbbad5dbae5fb') in 0.016031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Ketchup.fbx
+  artifactKey: Guid(8cdefd2290729be408130da2393b8fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Ketchup.fbx using Guid(8cdefd2290729be408130da2393b8fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '138bb4e3d09b899f488a83389e9cfa0c') in 0.019549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Shotgunbarrel.prefab
+  artifactKey: Guid(6d3e900295f59b14782f3445a2270182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Shotgunbarrel.prefab using Guid(6d3e900295f59b14782f3445a2270182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50e3da4ee1a81bb7c82136242e2996fb') in 0.020977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Ketchup.prefab
+  artifactKey: Guid(ea443e2990042e44aae001028c949d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Ketchup.prefab using Guid(ea443e2990042e44aae001028c949d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '676288787bf7cc15c03acc17f3cf8f33') in 0.016959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Sause.prefab
+  artifactKey: Guid(cad891bdb016c454aac71c01784988b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Sause.prefab using Guid(cad891bdb016c454aac71c01784988b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f207bd73d2232d3c6b82378e170a0048') in 0.019389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Baseball bat.fbx
+  artifactKey: Guid(9b53b65eec3ae95488a09d7d1c3b64ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Baseball bat.fbx using Guid(9b53b65eec3ae95488a09d7d1c3b64ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '087240343a3cb373dbdc2de05b672b3b') in 0.019284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Big ammo.fbx
+  artifactKey: Guid(ddcbb95f414f2bc4a9fddc2ca9da9247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Big ammo.fbx using Guid(ddcbb95f414f2bc4a9fddc2ca9da9247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7985975004e49a5cf61a019374572444') in 0.023600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Big sings/BigPistol.fbx
+  artifactKey: Guid(7412ce58a36b977409a70a017afec069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Buildings/Big sings/BigPistol.fbx using Guid(7412ce58a36b977409a70a017afec069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fcde78b52e43b1c5eda914c7d297e8bb') in 0.019577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Bottle.prefab
+  artifactKey: Guid(e01edba253a032241aafc84df57350cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Bottle.prefab using Guid(e01edba253a032241aafc84df57350cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fea79c33b8e5763008f9b19a89530eb') in 0.019224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Baseball bat.prefab
+  artifactKey: Guid(f45d28f501bec3740b6752ebee85d4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Baseball bat.prefab using Guid(f45d28f501bec3740b6752ebee85d4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13e905d930249a586d3be663e59555b5') in 0.017078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Sausage.fbx
+  artifactKey: Guid(3a67e4115ae75ff47888adbba67589be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Sausage.fbx using Guid(3a67e4115ae75ff47888adbba67589be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe4c3b060e39e48535537d2eb9e9750') in 0.016239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Uzi.prefab
+  artifactKey: Guid(aef2004939cd87f42b3c7f28c976738b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Uzi.prefab using Guid(aef2004939cd87f42b3c7f28c976738b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4509f14d7ae9b5353da2a38e01aae480') in 0.023176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Icecream.prefab
+  artifactKey: Guid(42bedd291852b534cbac1c760b4d6ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Icecream.prefab using Guid(42bedd291852b534cbac1c760b4d6ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68d61f4c701ee5718526ac04ee70bf66') in 0.022425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetcone.fbx
+  artifactKey: Guid(55f6de516d3b1f6439e4061cdfdbba96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetcone.fbx using Guid(55f6de516d3b1f6439e4061cdfdbba96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '790d3d5600a9f38dd89f1b9740238f0d') in 0.013841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Big Sings/BigPistol.prefab
+  artifactKey: Guid(deeff1c09ed795846894cedfb42e038b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Big Sings/BigPistol.prefab using Guid(deeff1c09ed795846894cedfb42e038b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f4eef86e6c324292cb7118fe87c1929') in 0.011248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Burger.prefab
+  artifactKey: Guid(ea97e632cc837094793c0c67132066b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Food/Burger.prefab using Guid(ea97e632cc837094793c0c67132066b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ada3bfb341502723e35bd89cdaa85e02') in 0.024279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Trafficlight.fbx
+  artifactKey: Guid(32b0b7468bd141c45a30d6c773d3c4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Trafficlight.fbx using Guid(32b0b7468bd141c45a30d6c773d3c4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ce4c80d08722792b08bc620a0546faa') in 0.021146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Silencer Pistol.prefab
+  artifactKey: Guid(9ddcf5169c39b744f99d54afbde841c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Silencer Pistol.prefab using Guid(9ddcf5169c39b744f99d54afbde841c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bdfb92b2d7d0af45c2917698c3f198e8') in 0.018881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Hotdog.fbx
+  artifactKey: Guid(b464f5354f877574aa7db629fa91b6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Hotdog.fbx using Guid(b464f5354f877574aa7db629fa91b6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf86027b24d51c12ab0166d1fea8d61a') in 0.017268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetsing.fbx
+  artifactKey: Guid(04bcc9175c1d71e44b30b2b738b62738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetsing.fbx using Guid(04bcc9175c1d71e44b30b2b738b62738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b98d5d191a49d423f817c1d6f72870d') in 0.025586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Grande box.prefab
+  artifactKey: Guid(45878e2c09ee3214a8251d1766fcd901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Items/Weapons/Grande box.prefab using Guid(45878e2c09ee3214a8251d1766fcd901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c7ad891715fd50b046e526f1db8dc57') in 0.026911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/sing 3.fbx
+  artifactKey: Guid(4b6b8d02aa912ef4eb9c8e1ad9a3910f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/sing 3.fbx using Guid(4b6b8d02aa912ef4eb9c8e1ad9a3910f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0c791da8d169dbabd6d6987cf759016') in 0.023583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Waterbomb.fbx
+  artifactKey: Guid(fd935e47e8de0a844892eff63df7ec0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Waterbomb.fbx using Guid(fd935e47e8de0a844892eff63df7ec0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f4b41c503edd9ab9107394ceafaee74') in 0.022589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetwater.fbx
+  artifactKey: Guid(45cb391bd02c92d4d96c80f69f64e831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetwater.fbx using Guid(45cb391bd02c92d4d96c80f69f64e831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17cc0f621e81716e5697b105335643bb') in 0.015729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles.mtl
+  artifactKey: Guid(4bf3cc0ebb04f7d4d9e4adf5cf4909cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles.mtl using Guid(4bf3cc0ebb04f7d4d9e4adf5cf4909cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50d6470ca272ce6c270596ff399642e0') in 0.007974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 3.fbx
+  artifactKey: Guid(e4c9569bddef8d64097dac2509643bde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 3.fbx using Guid(e4c9569bddef8d64097dac2509643bde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7629c1ce0424c9a500f3259a2ea3b350') in 0.020833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles3.obj
+  artifactKey: Guid(7c6a51ffb431d3b49aa460c0eda29371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles3.obj using Guid(7c6a51ffb431d3b49aa460c0eda29371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3b262f59e8c9713932fe9d10416fa08') in 0.014911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 9.fbx
+  artifactKey: Guid(cf85a505a1474ec409eab287ce60dccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 9.fbx using Guid(cf85a505a1474ec409eab287ce60dccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '259a3a3de98b6d717862b31755f79aa9') in 0.025860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles4.mtl
+  artifactKey: Guid(1c7af976ba82ff740be48780bf3318e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles4.mtl using Guid(1c7af976ba82ff740be48780bf3318e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83ff2ebd9675244a3b641c0fd32c3d03') in 0.010004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles10.mtl
+  artifactKey: Guid(3019f75909b75d44d86f29ceeab2c039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles10.mtl using Guid(3019f75909b75d44d86f29ceeab2c039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b89ffd867cf8806a7b6725ab2032952e') in 0.008125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles8.obj
+  artifactKey: Guid(3e0752299349bc64fa11873bf8302470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles8.obj using Guid(3e0752299349bc64fa11873bf8302470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8344ef4ca9929a5b189ad232f4eafb25') in 0.017570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles23.obj
+  artifactKey: Guid(8789ba997c29ee944a19fb74b08c1a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles23.obj using Guid(8789ba997c29ee944a19fb74b08c1a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf0371f0fea531bf7a7998b7fcbfff01') in 0.014080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Sause.fbx
+  artifactKey: Guid(f50eb6ce6329703429081d9ba52122cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Food/Sause.fbx using Guid(f50eb6ce6329703429081d9ba52122cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbe8c7a66577fbc943cb8b4e73df171c') in 0.018186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 8.fbx
+  artifactKey: Guid(adf990bc01ca67a44a602dd0f54025b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Mobs/Char/Char 8.fbx using Guid(adf990bc01ca67a44a602dd0f54025b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84f7f629b2b2f0314b4434e6fca5c840') in 0.022795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles6.obj
+  artifactKey: Guid(13b9912c8a98598468aa95bf4a5a3e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles6.obj using Guid(13b9912c8a98598468aa95bf4a5a3e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efb8d595660a6729f01a64d7e6c9d2b8') in 0.014724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles18.obj
+  artifactKey: Guid(d9897918b94c7c7469e8b32e87a5955a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles18.obj using Guid(d9897918b94c7c7469e8b32e87a5955a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b9f6dd03517e46417ed9607c85c2002') in 0.015181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Trashcanfall.fbx
+  artifactKey: Guid(c79ac421828588148a4672d1d859f02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Trashcanfall.fbx using Guid(c79ac421828588148a4672d1d859f02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b455890493e5ac7a1ad1820e8accc0f') in 0.021692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetstop.fbx
+  artifactKey: Guid(a8f089b54fd3fb54581d9debf4826b81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Streetstop.fbx using Guid(a8f089b54fd3fb54581d9debf4826b81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b37080db91650c16726b24bfcc230d35') in 0.017744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles17.obj
+  artifactKey: Guid(d5464c787fcfad64e941cbb81a1366cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles17.obj using Guid(d5464c787fcfad64e941cbb81a1366cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '297068b77704ed2a7efdae7666c6fa01') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calle 1.obj
+  artifactKey: Guid(13c861565555d4241b4f920090ab5355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calle 1.obj using Guid(13c861565555d4241b4f920090ab5355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfaf95ec673b603dac521297b1a039f1') in 0.015303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles20.obj
+  artifactKey: Guid(2acfbb9b5b0e3c64f9d7cce7dd531e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles20.obj using Guid(2acfbb9b5b0e3c64f9d7cce7dd531e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c6d96b114a03c17c82d252b52dd53a5') in 0.021868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Grande box.fbx
+  artifactKey: Guid(c3c7c78e452554e4cb09be6086537785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Items/Armas/Grande box.fbx using Guid(c3c7c78e452554e4cb09be6086537785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddacceb5b9b296716771cd9dbff20f24') in 0.018284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Carstop.fbx
+  artifactKey: Guid(f8de646ffc8281d47be5f9ef6adbf60f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Props/Carstop.fbx using Guid(f8de646ffc8281d47be5f9ef6adbf60f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8032f4272a4506ed0a566ecc550ccd5d') in 0.014336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Garage 2 .prefab
+  artifactKey: Guid(66e88bf111c34ac4396d1b31bd74ae7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Buildings/Garage 2 .prefab using Guid(66e88bf111c34ac4396d1b31bd74ae7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92d5e0864d32b187cce2c22494d1f7ff') in 0.018108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles11.mtl
+  artifactKey: Guid(af9772729f3d70f4e975063e17a2d75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09_Externals/City pack/City pack/Citypack/3d models/Streets/A bridge/Calles11.mtl using Guid(af9772729f3d70f4e975063e17a2d75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f016bf0286bd3ffa8a53a29531112abd') in 0.008439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.936303 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Props/Cabble.prefab
+  artifactKey: Guid(f4abe202e6b1f0444b3b3e4437ea46f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Props/Cabble.prefab using Guid(f4abe202e6b1f0444b3b3e4437ea46f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8c872cf66d350d18f68c1dcde0ed953') in 0.071868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street15.prefab
+  artifactKey: Guid(202b2e0bfafce1a438480a247cd78f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street15.prefab using Guid(202b2e0bfafce1a438480a247cd78f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '174d7d0e048d1430f523432661e4a91b') in 0.011505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.096899 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street4.prefab
+  artifactKey: Guid(8c94eec109d53ad43a041124f2b70609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street4.prefab using Guid(8c94eec109d53ad43a041124f2b70609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec5b3486384819a24fdcd9c131574972') in 0.046940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street16.prefab
+  artifactKey: Guid(a7adf9e526f57d640a513f201b8ddf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street16.prefab using Guid(a7adf9e526f57d640a513f201b8ddf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efe1e3d5b2bcb86689748e2af1c91b03') in 0.032125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.005894 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street19.prefab
+  artifactKey: Guid(d9ebe3b63f7620d408815b959cad893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street19.prefab using Guid(d9ebe3b63f7620d408815b959cad893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2bfc53da4085cfe43e8bfb3fe8990190') in 0.015313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.055248 seconds.
+  path: Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street6.prefab
+  artifactKey: Guid(e18dc2821746f804e85147f061dfe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09_Externals/City pack/City pack/Prefabs/Streets/Street6.prefab using Guid(e18dc2821746f804e85147f061dfe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b44f9586593b856835af9a9b28ea6d4e') in 0.042531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

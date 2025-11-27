@@ -16,12 +16,9 @@ public class CharacterManager : MonoBehaviour
             return _instance;
         }
     }
-    public Player player
-    {
-        get { return _player; }
-        set { _player = value; }
-    }
-    private Player _player;
+    public Player player { get; set; }
+
+    public PlayerData playerData { get; set; }
 
     private void Awake()
     {

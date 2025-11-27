@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "IdleGame3D.slnx"
+    "dotnet.defaultSolution": "IdleGame3D.sln"
 }
