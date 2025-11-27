@@ -20,12 +20,15 @@ public class PlayerCombat : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         playerStats = GetComponent<Player>();
-
-        agent.speed = playerStats.moveSpeed;
     }
 
     private void Update()
     {
+        if (currentTarget != null && !currentTarget.gameObject.activeSelf)
+        {
+            currentTarget = null;
+        }
+
         attackCooldown -= Time.deltaTime;
 
         if (currentTarget == null)
@@ -63,14 +66,6 @@ public class PlayerCombat : MonoBehaviour
 
     void FindTarget()
     {
-        if (currentTarget != null)
-        {
-            if (currentTarget.gameObject.activeSelf)
-                return;
-            else
-                currentTarget = null;
-        }
-
         float minDist = Mathf.Infinity;
         Transform nearestZombie = null;
 

@@ -65,23 +65,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\01_Scripts\Mob\ZombieSpawnSet.cs" />
+    <Compile Include="Assets\01_Scripts\Managers\UpgradeManager.cs" />
     <Compile Include="Assets\01_Scripts\Player\PlayerCombat.cs" />
     <Compile Include="Assets\01_Scripts\Mob\ZombieManager.cs" />
     <Compile Include="Assets\01_Scripts\Player\Player.cs" />
     <Compile Include="Assets\01_Scripts\Player\StatType.cs" />
+    <Compile Include="Assets\01_Scripts\Managers\BuffManager.cs" />
+    <Compile Include="Assets\01_Scripts\UI\ItemShop.cs" />
     <Compile Include="Assets\01_Scripts\Camera\CameraObstacleCheck.cs" />
     <Compile Include="Assets\01_Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\01_Scripts\UI\HPBarManager.cs" />
     <Compile Include="Assets\01_Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\01_Scripts\Mob\ZombieStats.cs" />
-    <Compile Include="Assets\01_Scripts\Managers\UpgradeMnager.cs" />
-    <Compile Include="Assets\01_Scripts\Managers\ClickManager.cs" />
     <Compile Include="Assets\01_Scripts\Camera\ObjectFade.cs" />
-    <Compile Include="Assets\01_Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\01_Scripts\Player\PlayerData.cs" />
     <Compile Include="Assets\01_Scripts\SaveSystem.cs" />
     <Compile Include="Assets\01_Scripts\Player\CharacterManager.cs" />
     <Compile Include="Assets\01_Scripts\Mob\ZombieAI.cs" />
-    <Compile Include="Assets\01_Scripts\Managers\ResourceManager.cs" />
+    <Compile Include="Assets\01_Scripts\UI\ShopItemButton.cs" />
+    <Compile Include="Assets\01_Scripts\UI\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

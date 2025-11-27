@@ -368,11 +368,9 @@
 "Assets/01_Scripts/Camera/CameraFollow.cs"
 "Assets/01_Scripts/Camera/CameraObstacleCheck.cs"
 "Assets/01_Scripts/Camera/ObjectFade.cs"
-"Assets/01_Scripts/Managers/ClickManager.cs"
+"Assets/01_Scripts/Managers/BuffManager.cs"
 "Assets/01_Scripts/Managers/GameManager.cs"
-"Assets/01_Scripts/Managers/ResourceManager.cs"
-"Assets/01_Scripts/Managers/UIManager.cs"
-"Assets/01_Scripts/Managers/UpgradeMnager.cs"
+"Assets/01_Scripts/Managers/UpgradeManager.cs"
 "Assets/01_Scripts/Mob/ZombieAI.cs"
 "Assets/01_Scripts/Mob/ZombieManager.cs"
 "Assets/01_Scripts/Mob/ZombieSpawnSet.cs"
@@ -383,6 +381,10 @@
 "Assets/01_Scripts/Player/PlayerData.cs"
 "Assets/01_Scripts/Player/StatType.cs"
 "Assets/01_Scripts/SaveSystem.cs"
+"Assets/01_Scripts/UI/HPBarManager.cs"
+"Assets/01_Scripts/UI/ItemShop.cs"
+"Assets/01_Scripts/UI/ShopItemButton.cs"
+"Assets/01_Scripts/UI/UIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize-

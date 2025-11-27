@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 8582c4fa128645047b5b99c74a20c0d6, type: 2}
+  attackCooldown: 0
 --- !u!195 &8490026194557611617
 NavMeshAgent:
   m_ObjectHideFlags: 0

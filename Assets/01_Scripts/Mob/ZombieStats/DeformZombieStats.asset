@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b8fcba2aa75ec4b8c91f4fe26e5887, type: 3}
+  m_Name: DeformZombieStats
+  m_EditorClassIdentifier: 
+  mainStat: 0
+  prefab: {fileID: 2927123906959150610, guid: 64c52f37ff888c04380f6fda4a9181c2, type: 3}
+  maxHealth: 20
+  moveSpeed: 1
+  attackSpeed: 1
+  power: 5
+  goldReward: 2000
+  unlockLevel: 2

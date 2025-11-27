@@ -29,14 +29,6 @@ public class ZombieManager : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
-
-        if (player == null)
-            Debug.LogError("❌ ZombieManager: Player 태그를 가진 오브젝트를 찾지 못했습니다!");
-
-        if (zombieSpawnSets.Count == 0)
-            Debug.LogError("❌ ZombieManager: zombieSpawnSets 가 비어 있습니다! 스폰셋을 등록하세요.");
-
-        Debug.Log("✔ ZombieManager Start() 완료");
     }
 
     void Update()

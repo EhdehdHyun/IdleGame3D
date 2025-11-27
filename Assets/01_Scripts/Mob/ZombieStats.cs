@@ -15,6 +15,9 @@ public class ZombieStats : ScriptableObject
     public float attackSpeed;
     public float power;
 
+    [Header("보상")]
+    public int goldReward = 10;
+
     [Header("unlockLevel")]
     public int unlockLevel = 0;
 }

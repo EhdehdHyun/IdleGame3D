@@ -25,6 +25,10 @@ public class CharacterManager : MonoBehaviour
         if (_instance == null)
         {
             _instance = this;
+
+            if (playerData == null)
+                playerData = new PlayerData();
+
             DontDestroyOnLoad(gameObject);
         }
         else

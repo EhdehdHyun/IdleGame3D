@@ -6,13 +6,17 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int level = 0;
+    public int day = 1;
+    public int level = 0; //좀비 레벨 증가 용
+    public int killCount = 0;
+    public int killPerDay = 30;
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -39,5 +43,37 @@ public class GameManager : MonoBehaviour
             loaded.level = 0;
         }
         CharacterManager.Instance.playerData = loaded;
+        UIManager.Instance.UpdateUpgradeUI();
+
+        var player = CharacterManager.Instance.player;
+        if (player != null)
+        {
+            player.ApplyStats();
+        }
+
+        CharacterManager.Instance.player.currentHealth = CharacterManager.Instance.player.health;
+    }
+
+    public void OnKillEnemy()
+    {
+        killCount++;
+        UIManager.Instance.UpdateKillCountUI();
+        if (killCount >= killPerDay)
+        {
+            killCount = 0;
+            killPerDay += 5; //다음날 처치해야할 몹 수 증가
+            DayUp();
+        }
+    }
+
+    private void DayUp()
+    {
+        day++;
+
+        level = (day - 1) / 10; //10일마다 레벨업
+
+        UIManager.Instance.UpdateDayUI(day);
+
+        Debug.Log(day + (" ") + level);
     }
 }
